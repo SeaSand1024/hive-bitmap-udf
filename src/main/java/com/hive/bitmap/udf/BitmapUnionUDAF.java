@@ -35,7 +35,7 @@ import com.hive.bitmap.common.BitmapUtil;
 
 
 /**
- * bitmap_union.
+ * 多个bitmap合并为一个bitmap（并集.
  *
  */
 @Description(name = "bitmap_union", value = "_FUNC_(expr) - Calculate the grouped bitmap union , Returns an doris bitmap representation of a column.")

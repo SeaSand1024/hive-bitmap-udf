@@ -31,6 +31,9 @@ import org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectIn
 
 import java.io.IOException;
 
+/**
+ * 计算两个bitmap并集
+ */
 @Description(name = "bitmap_or", value = "a _FUNC_ b - Compute union of two or more input bitmaps, returns the new bitmap")
 public class BitmapOrUDF extends GenericUDF {
 

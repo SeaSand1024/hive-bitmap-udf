@@ -31,6 +31,9 @@ import org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectIn
 
 import java.io.IOException;
 
+/**
+ * 计算bitmap中存储的num个数
+ */
 @Description(name = "bitmap_count", value = "a _FUNC_ b - Returns the number of distinct integers added to the bitmap (e.g., number of bits set)")
 public class BitmapCountUDF extends GenericUDF {
 

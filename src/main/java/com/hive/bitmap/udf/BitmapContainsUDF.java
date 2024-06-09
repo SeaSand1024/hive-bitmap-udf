@@ -31,6 +31,9 @@ import org.roaringbitmap.longlong.Roaring64Bitmap;
 import java.io.IOException;
 import java.util.Iterator;
 
+/**
+ * bitmap是否包含另一个bitmap全部元素
+ */
 @Description(name = "bitmap_contains")
 public class BitmapContainsUDF extends GenericUDF {
 

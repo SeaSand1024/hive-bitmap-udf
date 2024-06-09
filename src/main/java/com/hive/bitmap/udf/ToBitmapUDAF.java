@@ -36,7 +36,7 @@ import org.apache.hadoop.hive.serde2.typeinfo.TypeInfo;
 import java.io.IOException;
 
 /**
- * ToBitmap.
+ * 将num（int或bigint） 转化为 bitmap
  *
  */
 @Description(name = "to_bitmap", value = "_FUNC_(expr) - Returns an doris bitmap representation of a column.")

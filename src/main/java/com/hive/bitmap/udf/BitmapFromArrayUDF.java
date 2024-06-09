@@ -32,6 +32,9 @@ import org.roaringbitmap.longlong.Roaring64Bitmap;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * array 转化为bitmap
+ */
 @Description(name = "bitmap_from_array")
 public class BitmapFromArrayUDF extends GenericUDF {
 

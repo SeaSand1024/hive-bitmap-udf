@@ -34,6 +34,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * bitmap转化为array
+ */
 @Description(name = "bitmap_to_array")
 public class BitmapToArrayUDF extends GenericUDF {
 

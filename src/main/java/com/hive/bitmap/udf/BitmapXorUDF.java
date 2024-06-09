@@ -31,6 +31,9 @@ import org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectIn
 
 import java.io.IOException;
 
+/**
+ * 计算两个bitmap差集
+ */
 @Description(name = "bitmap_xor", value = "a _FUNC_ b - Compute the symmetric union of two or more input bitmaps, return the new bitmap")
 public class BitmapXorUDF extends GenericUDF {
 
